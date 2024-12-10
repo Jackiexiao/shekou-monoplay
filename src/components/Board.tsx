@@ -28,16 +28,16 @@ const Board: React.FC<BoardProps> = ({
   
   const sideStyles = {
     top: 'grid-cols-6 grid-rows-1 w-full',
-    right: 'grid-cols-1 grid-rows-4 h-full gap-y-1',
+    right: 'grid-cols-1 grid-rows-4 h-full gap-y-0.5',
     bottom: 'grid-cols-6 grid-rows-1 w-full',
-    left: 'grid-cols-1 grid-rows-4 h-full gap-y-1'
+    left: 'grid-cols-1 grid-rows-4 h-full gap-y-0.5'
   };
 
   const containerStyles = {
     top: 'w-full h-24 sm:h-28',
-    right: 'h-full w-32 py-1',
+    right: 'h-full w-32 py-0.5',
     bottom: 'w-full h-24 sm:h-28',
-    left: 'h-full w-32 py-1'
+    left: 'h-full w-32 py-0.5'
   };
   
   const getOrderedSpaces = () => {

@@ -75,7 +75,7 @@ const BoardSpace: React.FC<BoardSpaceProps> = ({
         relative bg-white/5 rounded-lg p-2
         transition-all duration-300 cursor-pointer
         ${side === 'left' || side === 'right' 
-          ? 'h-24 sm:h-28'
+          ? 'h-32 sm:h-36'
           : 'h-24 sm:h-28'
         }
         border-2 ${getBorderStyle()}

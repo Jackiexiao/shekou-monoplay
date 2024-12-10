@@ -398,7 +398,7 @@ function App() {
             />
           </div>
           
-          <div className="absolute right-8 top-[12%] bottom-[12%] w-32">
+          <div className="absolute right-8 top-[15%] bottom-[12%] w-32">
             <Board 
               players={players} 
               startIndex={7} 
@@ -424,7 +424,7 @@ function App() {
             />
           </div>
           
-          <div className="absolute left-8 top-[12%] bottom-[12%] w-32">
+          <div className="absolute left-8 top-[15%] bottom-[12%] w-32">
             <Board 
               players={players} 
               startIndex={17} 
